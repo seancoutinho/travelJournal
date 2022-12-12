@@ -3,7 +3,7 @@ import React from 'react'
 export default function Card(props) {
     
     return (
-        <>
+        <div>
             <div className='card'>
                 <img src={props.imageUrl} />
                 <div className='card-info'>
@@ -18,6 +18,6 @@ export default function Card(props) {
                 </div>
             </div>
             <hr/>
-        </>
+        </div>
     )
 }
