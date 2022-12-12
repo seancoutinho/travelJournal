@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.maps-directions {
+    color: #918E9B;
+    text-decoration: underline;
+    width: 120px;
+    height: 13px;
+    font-size: 10px;
+}
+
+.gray {
+    color: #2B283A;
+}
+
+nav {
+    display: flex;
+    background-color: #F55A5A;
+    width: 550;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 7px;
+}
+
+nav > img {
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    padding: 40px;
+    gap: 19px;
+    width: 478px;
+}
+
+.card > img {
+    width: 125px;
+    height:168px;
+    border-radius: 5px;
+}
+
+.location-image {
+    width: 10px;
+    height: 10px;
+}
+
+.card-info {
+    padding:20px;
+}
+
+.location {
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-size: 10.24px;
+    letter-spacing: 0.17em;
+}
+
+.location-info {
+    display: flex;
+    gap: 4px;
+}
+
+.title {
+    margin-top: 4px;
+    color: #2B283A;
+    font-size: 25px;
+    width: 400px;
+}
+
+.travel-date {
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.description {
+    margin-top: 10px;
+    width:326px;
+}
